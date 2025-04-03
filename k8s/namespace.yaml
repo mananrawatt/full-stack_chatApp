@@ -1,4 +1,14 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: chat-app
+  creationTimestamp: "2025-03-26T16:46:51Z"
+  labels:
+    kubernetes.io/metadata.name: chatapp
+  name: chatapp
+  resourceVersion: "1020"
+  uid: a4c2df48-b5d5-472a-8b5c-486fc6195cd1
+spec:
+  finalizers:
+  - kubernetes
+status:
+  phase: Active
